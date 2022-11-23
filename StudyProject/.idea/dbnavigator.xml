@@ -2,13 +2,13 @@
 <project version="4">
   <component name="DBNavigator.Project.DataEditorManager">
     <record-view-column-sorting-type value="BY_INDEX" />
-    <value-preview-text-wrapping value="true" />
+    <value-preview-text-wrapping value="false" />
     <value-preview-pinned value="false" />
   </component>
   <component name="DBNavigator.Project.DatabaseBrowserManager">
     <autoscroll-to-editor value="false" />
     <autoscroll-from-editor value="true" />
-    <show-object-properties value="true" />
+    <show-object-properties value="false" />
     <loaded-nodes />
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
@@ -19,12 +19,33 @@
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files />
   </component>
+  <component name="DBNavigator.Project.DatabaseSessionManager">
+    <connection id="b759d4fa-b6a9-4c6f-9edc-9b53264c43fa">
+      <session name="Session 1" id="ce8d7f89-0755-4c2a-97a3-bba1dda2962e" />
+    </connection>
+  </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
     <filter-actions connection-id="b759d4fa-b6a9-4c6f-9edc-9b53264c43fa" dataset="mysql.columns_priv" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="b759d4fa-b6a9-4c6f-9edc-9b53264c43fa" dataset="mysql.help_category" active-filter-id="" />
+    <filter-actions connection-id="b759d4fa-b6a9-4c6f-9edc-9b53264c43fa" dataset="mysql.gtid_executed" active-filter-id="" />
+    <filter-actions connection-id="b759d4fa-b6a9-4c6f-9edc-9b53264c43fa" dataset="mysql.slow_log" active-filter-id="" />
+    <filter-actions connection-id="b759d4fa-b6a9-4c6f-9edc-9b53264c43fa" dataset="mysql.users" active-filter-id="" />
+    <filter-actions connection-id="b759d4fa-b6a9-4c6f-9edc-9b53264c43fa" dataset="mysql.global_grants" active-filter-id="" />
+    <filter-actions connection-id="b759d4fa-b6a9-4c6f-9edc-9b53264c43fa" dataset="mysql.help_relation" active-filter-id="" />
+    <filter-actions connection-id="b759d4fa-b6a9-4c6f-9edc-9b53264c43fa" dataset="mysql.help_keyword" active-filter-id="" />
     <filter-actions connection-id="b759d4fa-b6a9-4c6f-9edc-9b53264c43fa" dataset="mysql.help_topic" active-filter-id="" />
+    <filter-actions connection-id="b759d4fa-b6a9-4c6f-9edc-9b53264c43fa" dataset="mysql.replication_asynchronous_connection_failover_managed" active-filter-id="" />
+    <filter-actions connection-id="b759d4fa-b6a9-4c6f-9edc-9b53264c43fa" dataset="mysql.time_zone" active-filter-id="" />
+    <filter-actions connection-id="b759d4fa-b6a9-4c6f-9edc-9b53264c43fa" dataset="mysql.general_log" active-filter-id="" />
+    <filter-actions connection-id="b759d4fa-b6a9-4c6f-9edc-9b53264c43fa" dataset="mysql.user" active-filter-id="EMPTY_FILTER" />
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
-    <last-used-providers />
+    <last-used-providers>
+      <object-type object-type="TABLE" editor-provider="DATA" />
+    </last-used-providers>
+  </component>
+  <component name="DBNavigator.Project.ExecutionManager">
+    <retain-sticky-names value="false" />
   </component>
   <component name="DBNavigator.Project.MethodExecutionManager">
     <method-browser />
@@ -37,6 +58,11 @@
   <component name="DBNavigator.Project.ObjectQuickFilterManager">
     <last-used-operator value="EQUAL" />
     <filters />
+  </component>
+  <component name="DBNavigator.Project.ScriptExecutionManager" clear-outputs="true">
+    <recently-used-interfaces>
+      <mapping database-type="MYSQL" interface-id="DEFAULT" />
+    </recently-used-interfaces>
   </component>
   <component name="DBNavigator.Project.Settings">
     <connections>
@@ -522,5 +548,8 @@
         </visibility-settings>
       </environment>
     </general-settings>
+  </component>
+  <component name="DBNavigator.Project.StatementExecutionManager">
+    <execution-variables />
   </component>
 </project>
